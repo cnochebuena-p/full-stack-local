@@ -1,3 +1,9 @@
+# Note: if code is running then paste http://127.0.0.1:5000/ or localhost:5000
+# onto browser to get it to work.
+
+# to get the following import to work, it might be necessary to run this
+# the terminal:
+# python3 -m pip install flask 
 from flask import Flask, render_template, jsonify, request
 
 app = Flask(__name__)
